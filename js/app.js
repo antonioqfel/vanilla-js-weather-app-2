@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
             const proxy = "https://cors-anywhere.herokuapp.com/"
             const darkSkyApi = `${proxy}https://api.darksky.net/forecast/ddc78902b33a3015b36c9228ea9f9313/${latitude},${longitude}`;
 
-            const key = 'AIzaSyAIgyfaTSNcXoZg6DFdUjH3jMS0qJpGipo';
+            const key = 'YOUR_GOOGLE_API_KEY';
             const latlng = `${latitude},${longitude}`;
 
             //const api = `${proxy}https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${location}&radius=500&key=${key}`;
